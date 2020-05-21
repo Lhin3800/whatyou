@@ -1,3 +1,8 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
   font-family: "Kanit", sans-serif;
   color: #000000;
@@ -5,15 +10,18 @@ body {
   font-weight: 16px;
 }
 
-a,
-a:hover,
-a:focus {
-  text-decoration: none;
+a {
+  opacity: 1;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
 }
 
 a:hover,
 a:focus {
-  color: initial;
+  text-decoration: none;
+  opacity: 0.7;
 }
 
 ul {
@@ -186,13 +194,27 @@ nav.navbar.navbar-expand-lg {
     rgba(255, 186, 0, 1) 0%,
     rgba(255, 91, 0, 1) 100%
   );
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .footer_section .container {
   width: 780px;
 }
-
+.footer_social {
+  padding: 10px 0;
+}
+.footer_section .col-md-6:first-child {
+  position: relative;
+}
+.footer_section .col-md-6:first-child::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 3px;
+  height: 100%;
+  background: #ffffff;
+}
 .footer_social h4 {
   font-size: 20px;
   font-weight: bold;
@@ -218,26 +240,22 @@ nav.navbar.navbar-expand-lg {
   border: 2px solid #ffffff;
   box-sizing: border-box;
   border-radius: 99px;
-  transition: ease-in 0.2s;
-  -webkit-transition: linear 0.2s;
-}
-
-.footer_social ul li a:hover {
-  color: #000;
-  border: 2px solid #000000;
 }
 
 .footer_social ul li a i {
   font-size: 20px;
 }
-
 .footer_link {
+  margin-top: 20px;
+}
+.footer_link h4 {
+  color: #ffffff;
+  font-size: 19px;
 }
 
-.footer_link h3 {
-}
-
-.footer_link ul li {
+.footer_link ul li a {
+  color: #ffffff;
+  font-size: 11px;
 }
 
 /* end footer section*/
