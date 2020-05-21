@@ -3,6 +3,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
 body {
   font-family: "Kanit", sans-serif;
   color: #000000;
@@ -73,11 +74,12 @@ nav.navbar.navbar-expand-lg {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 5px 20px;
+  padding: 5px 30px;
   color: #fff;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
@@ -120,7 +122,7 @@ nav.navbar.navbar-expand-lg {
 }
 
 .custom_nav-container .nav_search-btn {
-  background-image: url(../images/search-icon.png);
+  background-image: url(../images/search-icon-mobile.png);
   background-size: 22px;
   background-repeat: no-repeat;
   background-position-y: 7px;
@@ -147,35 +149,41 @@ nav.navbar.navbar-expand-lg {
 /*end header section*/
 
 /* hero section */
+
 .hero-container {
   display: flex;
   padding-top: 20px;
 }
 
 .hero_detail-box {
-  width: 45%;
+  width: 46%;
 }
 
 .hero_img-container {
-  width: 55%;
+  width: 54%;
+}
+
+.hero_img-container img {
+  margin-left: -45px;
 }
 
 .hero_detail-box {
   color: #fefeff;
-  padding-top: 150px;
+  padding-top: 120px;
 }
 
 .hero_detail-box h1,
 .hero_detail-box h3 {
-  font-size: 18px;
+  font-size: 20px;
   color: #999999;
   line-height: 1.3;
+  font-weight: 500;
 }
 
 .hero_detail-box h2 {
-  font-size: 37px;
+  font-size: 40px;
   color: #272727;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .hero_detail-box p {
@@ -185,36 +193,121 @@ nav.navbar.navbar-expand-lg {
 
 /* end hero section */
 
+
+/* categories section */
+.categories_section {
+  padding: 60px 0 50px;
+}
+
+.categories_section .card {
+  background: #FF7C00;
+  border-radius: 20px;
+  padding: 60px 0 30px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
+}
+
+.categories_section .card-img-top {
+  margin-top: -200px;
+  margin-left: -10px;
+  width: 290px;
+  height: auto;
+}
+
+.categories_section .card-body {
+  padding: 10px 0 0;
+}
+
+.categories_section .card-title {
+  margin-bottom: 0;
+}
+
+.categories_section .card-title a {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/* end categories section */
+
+/* counter section */
+.counter_section {
+  padding: 40px 0 80px;
+}
+
+.counter_section .col-md-6:first-child {
+  position: relative;
+}
+
+.counter_section .col-md-6:first-child::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 5px;
+  height: 100%;
+  background: #FF7328;
+}
+
+.counter_section .counter h2 {
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.counter_section .counter h3,
+.counter_section .counter p {
+  font-size: 24px;
+  color: #1A1A1A;
+}
+
+.counter_section .counter h4 {
+  font-size: 55px;
+  color: #FF7328;
+  font-weight: bold;
+}
+
+.counter_section .counter p {
+  margin-bottom: 0;
+}
+
+/* end counter section */
+
+
+
 /* footer section*/
 
 .footer_section {
   background: rgb(255, 186, 0);
-  background: linear-gradient(
-    245deg,
-    rgba(255, 186, 0, 1) 0%,
-    rgba(255, 91, 0, 1) 100%
-  );
+  background: linear-gradient(245deg,
+      rgba(255, 186, 0, 1) 0%,
+      rgba(255, 91, 0, 1) 100%);
   padding: 50px 0;
 }
 
 .footer_section .container {
   width: 780px;
 }
+
 .footer_social {
   padding: 10px 0;
 }
+
 .footer_section .col-md-6:first-child {
   position: relative;
 }
+
 .footer_section .col-md-6:first-child::before {
   content: "";
   position: absolute;
   top: 0;
   right: -10px;
-  width: 3px;
+  width: 2px;
   height: 100%;
   background: #ffffff;
 }
+
 .footer_social h4 {
   font-size: 20px;
   font-weight: bold;
@@ -245,9 +338,11 @@ nav.navbar.navbar-expand-lg {
 .footer_social ul li a i {
   font-size: 20px;
 }
+
 .footer_link {
-  margin-top: 20px;
+  margin-top: 40px;
 }
+
 .footer_link h4 {
   color: #ffffff;
   font-size: 19px;
@@ -255,7 +350,7 @@ nav.navbar.navbar-expand-lg {
 
 .footer_link ul li a {
   color: #ffffff;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 /* end footer section*/
