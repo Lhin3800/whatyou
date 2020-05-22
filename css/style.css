@@ -9,6 +9,10 @@ body {
   color: #000000;
   font-weight: 400;
   font-weight: 16px;
+  background: url(../images/hero-bg.svg);
+  background-size: 125%;
+  background-repeat: no-repeat;
+  background-position: center -260px;
 }
 
 a {
@@ -66,17 +70,17 @@ ul li {
 /*header section*/
 
 .header_section {
-  padding-top: 10px;
+  padding: 10px 15px 0;
 }
 
 nav.navbar.navbar-expand-lg {
-  padding: 10px 0;
+  padding: 0;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 5px 30px;
+  padding: 5px 28px;
   color: #fff;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -95,11 +99,6 @@ nav.navbar.navbar-expand-lg {
 .top_container {
   height: 700px;
   position: relative;
-  background: url(../images/hero-bg.svg);
-  background-size: cover;
-  background-size: 125%;
-  background-repeat: no-repeat;
-  background-position: center -200px;
 }
 
 /* .top_container.sub_pages::before {
@@ -139,11 +138,54 @@ nav.navbar.navbar-expand-lg {
 
 .custom_nav-container .navbar-toggler {
   outline: none;
+  padding: 0;
+  margin-top: -20px;
 }
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
   background-image: url(../images/menu.png);
-  background-size: 40px;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+.offcanvas-header,
+.nav-icon .account {
+  display: none;
+}
+.nav-icon li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.nav-icon li:last-child {
+  position: relative;
+}
+.nav-icon li:last-child::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  background: #ffffff;
+  width: 2px;
+  height: 35px;
+}
+.nav-icon li a {
+  display: block;
+  text-align: center;
+}
+.nav-icon li a i {
+  font-size: 24px;
+}
+.nav-icon li:first-child a i {
+  font-size: 28px;
+}
+.nav-icon li:last-child a .ico-user {
+  background: #ffffff;
+  color: #ff8e00;
+  border-radius: 99px;
+  width: 40px;
+  height: 40px;
+  padding: 6px;
 }
 
 /*end header section*/
@@ -193,14 +235,13 @@ nav.navbar.navbar-expand-lg {
 
 /* end hero section */
 
-
 /* categories section */
 .categories_section {
   padding: 60px 0 50px;
 }
 
 .categories_section .card {
-  background: #FF7C00;
+  background: #ff7c00;
   border-radius: 20px;
   padding: 60px 0 30px;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
@@ -247,7 +288,7 @@ nav.navbar.navbar-expand-lg {
   right: -10px;
   width: 5px;
   height: 100%;
-  background: #FF7328;
+  background: #ff7328;
 }
 
 .counter_section .counter h2 {
@@ -259,12 +300,12 @@ nav.navbar.navbar-expand-lg {
 .counter_section .counter h3,
 .counter_section .counter p {
   font-size: 24px;
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
 
 .counter_section .counter h4 {
   font-size: 55px;
-  color: #FF7328;
+  color: #ff7328;
   font-weight: bold;
 }
 
@@ -274,15 +315,15 @@ nav.navbar.navbar-expand-lg {
 
 /* end counter section */
 
-
-
 /* footer section*/
 
 .footer_section {
   background: rgb(255, 186, 0);
-  background: linear-gradient(245deg,
-      rgba(255, 186, 0, 1) 0%,
-      rgba(255, 91, 0, 1) 100%);
+  background: linear-gradient(
+    245deg,
+    rgba(255, 186, 0, 1) 0%,
+    rgba(255, 91, 0, 1) 100%
+  );
   padding: 50px 0;
 }
 

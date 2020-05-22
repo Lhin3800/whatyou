@@ -19,38 +19,88 @@
   <div class="top_container">
     <header class="header_section">
       <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <!-- <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="What You Want">
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-trigger="#main_nav">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="main_nav">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <div class="offcanvas-header mt-3">  
+                <button class="btn btn-outline-danger btn-close float-right"> &times Close </button>
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logo.png" alt="What You Want">
+                </a>
+              </div>
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html"> Home</a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="teacher.html"> Product </a>
+                  <a class="nav-link" href="#"> Product </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="#l">Contact</a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="about.html"> About Us </a>
+                  <a class="nav-link" href="#"> About Us </a>
                 </li>
               </ul>
-              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
+              
             </div>
+        </nav> -->
+
+
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="What You Want">
+          </a>
+          <button class="navbar-toggler" type="button" data-trigger="#main_nav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse" id="main_nav">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center h-100">
+              <div class="offcanvas-header mt-3">  
+                <button class="btn btn-close float-right"> &times</button>
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logo.png" alt="What You Want">
+                </a>
+              </div>
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"> Home</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#"> Product </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#l">Contact</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#"> About Us </a>
+                </li>
+              </ul>
+              <div class="nav-icon align-bottom">
+                <ul>
+                  <li><a href="#"><i class="fa fa-shopping-cart text-white"></a></i></li>
+                  <li>
+                    <a href="#">
+                      <div class="ico-user"><i class="fa fa-user"></i></div>
+                      <div class="account">
+                        <h4>WHAT YOU WANT</h4>
+                        <p>Logout</p>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+          </div> <!-- navbar-collapse.// -->
         </nav>
-      </div>
     </header>
+  
     <section class="hero_section ">
       <div class="hero-container container">
         <div class="hero_img-container">
@@ -222,6 +272,19 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script src="https://kit.fontawesome.com/92b1f2faff.js" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $("[data-trigger]").on("click", function(){
+    var trigger_id =  $(this).attr('data-trigger');
+    $(trigger_id).toggleClass("show");
+    $('body').toggleClass("offcanvas-active");
+});
+
+// close button 
+$(".btn-close").click(function(e){
+    $(".navbar-collapse").removeClass("show");
+    $("body").removeClass("offcanvas-active");
+}); 
+  </script>
 </body>
 
 </html>
