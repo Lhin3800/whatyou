@@ -213,6 +213,7 @@
               <li><a href="#"> <i class="fa fa-facebook"></i></a></li>
               <li><a href="#"> <i class="fa fa-instagram"></i></a></li>
               <li><a href="#"> <i class="fa fa-phone"></i></a></li>
+              <li><a href="#"> <i class="fa fa-phone"></i></a></li>
             </ul>
           </div>
         </div>
@@ -223,6 +224,7 @@
               <li><a href="#"> <i class="fab fa-line"></i></a></li>
               <li><a href="#"> <i class="fa fa-facebook"></i></a></li>
               <li><a href="#"> <i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"> <i class="fa fa-phone"></i></a></li>
               <li><a href="#"> <i class="fa fa-phone"></i></a></li>
             </ul>
           </div>
@@ -262,7 +264,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-3 text-center  d-sm-none">
+      <div class="col-12 col-sm-3 text-center d-sm-none mt-5">
         <img src="images/logo.png" alt="" class="img-fluid">
       </div>
     </div>
@@ -274,16 +276,16 @@
   <script src="https://kit.fontawesome.com/92b1f2faff.js" crossorigin="anonymous"></script>
   <script type="text/javascript">
     $("[data-trigger]").on("click", function(){
-    var trigger_id =  $(this).attr('data-trigger');
-    $(trigger_id).toggleClass("show");
-    $('body').toggleClass("offcanvas-active");
-});
+        var trigger_id =  $(this).attr('data-trigger');
+        $(trigger_id).toggleClass("show");
+        $('body').toggleClass("offcanvas-active");
+    });
 
-// close button 
-$(".btn-close").click(function(e){
-    $(".navbar-collapse").removeClass("show");
-    $("body").removeClass("offcanvas-active");
-}); 
+    // close button 
+    $(".btn-close").click(function(e){
+        $(".navbar-collapse").removeClass("show");
+        $("body").removeClass("offcanvas-active");
+    }); 
   </script>
 </body>
 
