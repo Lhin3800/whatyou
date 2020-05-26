@@ -38,21 +38,21 @@ ul li {
   list-style: none;
 }
 
-.hero_section .call_to-btn {
+.hero-section .call-to-btn {
   padding: 12px 35px;
 }
 
-.call_to-btn img {
+.call-to-btn img {
   width: 18px;
   margin-left: 10px;
 }
 
-.btn_on-hover {
+.btn-on-hover {
   transition: all 0.3s ease 0s;
 }
 
-.call_to-btn:hover,
-.btn_on-hover:hover {
+.call-to-btn:hover,
+.btn-on-hover:hover {
   color: #fff;
   -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.7);
@@ -69,7 +69,7 @@ ul li {
 
 /*header section*/
 
-.header_section {
+.header-section {
   padding: 10px 15px 0;
 }
 
@@ -77,7 +77,7 @@ nav.navbar.navbar-expand-lg {
   padding: 0;
 }
 
-.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+.custom-nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 5px 28px;
   color: #fff;
   font-size: 20px;
@@ -86,7 +86,7 @@ nav.navbar.navbar-expand-lg {
   letter-spacing: 1px;
 }
 
-.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
+.custom-nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
   color: #232323;
 }
 
@@ -96,21 +96,21 @@ nav.navbar.navbar-expand-lg {
   box-shadow: none;
 }
 
-.top_container {
+.top-container {
   height: 700px;
   position: relative;
 }
 
-/* .top_container.sub_pages::before {
+/* .top-container.sub-pages::before {
   background-size: 400px 200px;
   background-position: top left;
 }
 
-.top_container.sub_pages {
+.top-container.sub-pages {
   height: 35vh;
 }
 
-.top_container.sub_page {
+.top-container.sub-page {
   height: auto;
 } */
 
@@ -120,7 +120,7 @@ nav.navbar.navbar-expand-lg {
   margin-right: 7px;
 }
 
-.custom_nav-container .nav_search-btn {
+.custom-nav-container .nav-search-btn {
   background-image: url(../images/search-icon-mobile.png);
   background-size: 22px;
   background-repeat: no-repeat;
@@ -131,18 +131,18 @@ nav.navbar.navbar-expand-lg {
   border: none;
 }
 
-.custom_nav-container {
+.custom-nav-container {
   z-index: 99999;
   padding: 15px 0;
 }
 
-.custom_nav-container .navbar-toggler {
+.custom-nav-container .navbar-toggler {
   outline: none;
   padding: 0;
   margin-top: -20px;
 }
 
-.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+.custom-nav-container .navbar-toggler .navbar-toggler-icon {
   background-image: url(../images/menu.png);
   background-size: cover;
   width: 50px;
@@ -197,38 +197,38 @@ nav.navbar.navbar-expand-lg {
   padding-top: 20px;
 }
 
-.hero_detail-box {
+.hero-detail-box {
   width: 46%;
 }
 
-.hero_img-container {
+.hero-img-container {
   width: 54%;
 }
 
-.hero_img-container img {
+.hero-img-container img {
   margin-left: -45px;
 }
 
-.hero_detail-box {
+.hero-detail-box {
   color: #fefeff;
   padding-top: 120px;
 }
 
-.hero_detail-box h1,
-.hero_detail-box h3 {
+.hero-detail-box h1,
+.hero-detail-box h3 {
   font-size: 20px;
   color: #999999;
   line-height: 1.3;
   font-weight: 500;
 }
 
-.hero_detail-box h2 {
+.hero-detail-box h2 {
   font-size: 40px;
   color: #272727;
   font-weight: 600;
 }
 
-.hero_detail-box p {
+.hero-detail-box p {
   margin-top: 20px;
   margin-bottom: 35px;
 }
@@ -236,11 +236,11 @@ nav.navbar.navbar-expand-lg {
 /* end hero section */
 
 /* categories section */
-.categories_section {
+.categories-section {
   padding: 60px 0 50px;
 }
 
-.categories_section .card {
+.categories-section .card {
   background: #ff7c00;
   border-radius: 20px;
   padding: 60px 0 30px;
@@ -249,22 +249,22 @@ nav.navbar.navbar-expand-lg {
   -moz-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
 }
 
-.categories_section .card-img-top {
+.categories-section .card-img-top {
   margin-top: -200px;
   margin-left: -10px;
   width: 290px;
   height: auto;
 }
 
-.categories_section .card-body {
+.categories-section .card-body {
   padding: 10px 0 0;
 }
 
-.categories_section .card-title {
+.categories-section .card-title {
   margin-bottom: 0;
 }
 
-.categories_section .card-title a {
+.categories-section .card-title a {
   font-size: 24px;
   font-weight: 400;
   color: #ffffff;
@@ -273,15 +273,15 @@ nav.navbar.navbar-expand-lg {
 /* end categories section */
 
 /* counter section */
-.counter_section {
-  padding: 40px 0 80px;
+.counter-section {
+  padding: 40px 0 0px;
 }
 
-.counter_section .col-md-6:first-child {
+.counter-section .col-md-6:first-child {
   position: relative;
 }
 
-.counter_section .col-md-6:first-child::before {
+.counter-section .col-md-6:first-child::before {
   content: "";
   position: absolute;
   top: 0;
@@ -291,33 +291,122 @@ nav.navbar.navbar-expand-lg {
   background: #ff7328;
 }
 
-.counter_section .counter h2 {
+.counter-section .counter h2 {
   font-size: 42px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.counter_section .counter h3,
-.counter_section .counter p {
+.counter-section .counter h3,
+.counter-section .counter p {
   font-size: 24px;
   color: #1a1a1a;
 }
 
-.counter_section .counter h4 {
+.counter-section .counter h4 {
   font-size: 55px;
   color: #ff7328;
   font-weight: bold;
 }
 
-.counter_section .counter p {
+.counter-section .counter p {
   margin-bottom: 0;
 }
 
 /* end counter section */
 
+/* feature section */
+.feature-section {
+  padding: 80px 0;
+}
+.feature-section .box-intro h2 {
+  text-align: center;
+}
+.feature-section .box-intro h4 {
+  text-align: left;
+  margin-left: 200px;
+}
+.feature-section.type01 .box-intro h2 {
+  text-align: left;
+}
+.feature-section.type01 .box-intro h4 {
+  margin-left: 0;
+}
+.feature-section.type01 .box-inner {
+  margin-right: 200px;
+  margin-left: 0;
+}
+.feature-section .box-inner {
+  padding: 20px 30px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
+  margin-left: 200px;
+}
+.product-list .card {
+  border: 0;
+}
+.product-list .card .card-body {
+  text-align: center;
+  padding: 10px;
+}
+.product-list .card .card-title {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #656565;
+  margin-bottom: 20px;
+}
+.product-list .card .btn {
+  background: #ff7328;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 40px;
+  border-radius: 20px;
+}
+.product-list .card .btn i {
+  padding-left: 20px;
+}
+/* end feature section */
+
+/*Custom Owl Nav*/
+.owl-prev {
+  width: 24px;
+  height: 48px;
+  position: absolute;
+  top: 40%;
+  margin-left: 0px;
+  display: block !important;
+}
+
+.owl-next {
+  width: 24px;
+  height: 48px;
+  position: absolute;
+  top: 40%;
+  right: 0px;
+  display: block !important;
+}
+.owl-prev i,
+.owl-next i {
+  transform: scale(3);
+  color: #ff7328;
+}
+.owl-prev:hover,
+.owl-next:hover {
+  opacity: 0.7;
+}
+.owl-prev:focus,
+.owl-next:focus {
+  outline: none;
+}
+
 /* footer section*/
 
-.footer_section {
+.footer-section {
   background: rgb(255, 186, 0);
   background: linear-gradient(
     245deg,
@@ -327,19 +416,19 @@ nav.navbar.navbar-expand-lg {
   padding: 50px 0;
 }
 
-.footer_section .container {
+.footer-section .container {
   width: 780px;
 }
 
-.footer_social {
+.footer-social {
   padding: 10px 0;
 }
 
-.footer_section .col-md-6:first-child {
+.footer-section .col-md-6:first-child {
   position: relative;
 }
 
-.footer_section .col-md-6:first-child::before {
+.footer-section .col-md-6:first-child::before {
   content: "";
   position: absolute;
   top: 0;
@@ -349,7 +438,7 @@ nav.navbar.navbar-expand-lg {
   background: #ffffff;
 }
 
-.footer_social h4 {
+.footer-social h4 {
   font-size: 20px;
   font-weight: bold;
   color: #fff;
@@ -357,15 +446,15 @@ nav.navbar.navbar-expand-lg {
   text-transform: uppercase;
 }
 
-.footer_social ul {
+.footer-social ul {
   text-align: center;
 }
 
-.footer_social ul li {
+.footer-social ul li {
   display: inline-block;
 }
 
-.footer_social ul li a {
+.footer-social ul li a {
   display: block;
   width: 40px;
   height: 40px;
@@ -376,20 +465,20 @@ nav.navbar.navbar-expand-lg {
   border-radius: 99px;
 }
 
-.footer_social ul li a i {
+.footer-social ul li a i {
   font-size: 20px;
 }
 
-.footer_link {
+.footer-link {
   margin-top: 40px;
 }
 
-.footer_link h4 {
+.footer-link h4 {
   color: #ffffff;
   font-size: 19px;
 }
 
-.footer_link ul li a {
+.footer-link ul li a {
   color: #ffffff;
   font-size: 13px;
 }

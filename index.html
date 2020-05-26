@@ -10,24 +10,26 @@
   <title>What You Want</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet" />
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
 </head>
 
 <body>
   <!-- header section start -->
-  <div class="top_container">
-    <header class="header_section">
+  <div class="top-container">
+    <header class="header-section">
       <div class="container">
-        <!-- <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <!-- <nav class="navbar navbar-expand-lg custom-nav-container ">
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="What You Want">
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-trigger="#main_nav">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-trigger="#main-nav">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="main_nav">
+          <div class="collapse navbar-collapse" id="main-nav">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <div class="offcanvas-header mt-3">  
                 <button class="btn btn-outline-danger btn-close float-right"> &times Close </button>
@@ -54,14 +56,14 @@
         </nav> -->
 
 
-        <nav class="navbar navbar-expand-lg custom_nav-container">
+        <nav class="navbar navbar-expand-lg custom-nav-container">
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="What You Want">
           </a>
-          <button class="navbar-toggler" type="button" data-trigger="#main_nav">
+          <button class="navbar-toggler" type="button" data-trigger="#main-nav">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="navbar-collapse" id="main_nav">
+          <div class="navbar-collapse" id="main-nav">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center h-100">
               <div class="offcanvas-header mt-3">  
                 <button class="btn btn-close float-right"> &times</button>
@@ -101,14 +103,14 @@
         </nav>
     </header>
   
-    <section class="hero_section ">
+    <section class="hero-section ">
       <div class="hero-container container">
-        <div class="hero_img-container">
+        <div class="hero-img-container">
           <div>
             <img src="images/hero.png" alt="" class="img-fluid">
           </div>
         </div>
-        <div class="hero_detail-box">
+        <div class="hero-detail-box">
           <h2>
             สกรีนได้ทุกรูปแบบ คุณภาพสูง<br>
             สีสดคมชัด ในราคาย่อมเยา
@@ -128,7 +130,7 @@
   <!-- end header section -->
 
   <!-- categories section start -->
-  <section class="categories_section">
+  <section class="categories-section">
     <div class="container">
       <div class="row">
         <div class="col-6 col-md-3">
@@ -168,7 +170,9 @@
   </section>
 
   <!-- end categories section -->
-  <section class="counter_section  d-none d-md-block">
+
+  <!-- counter section -->
+  <section class="counter-section  d-none d-md-block">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -190,23 +194,154 @@
       </div>
     </div>
   </section>
-  <!-- counter section -->
 
   <!-- end counter section -->
 
+  <!--  What You Want section -->
+  <section class="feature-section">
+    <div class="container">
+      <div class="box-intro">
+        <h2>What You Want</h2>
+        <h4>รับผลิตสินค้างานสกรีนอุปกรณ์โทรศัพท์ ตั้งแต่เคสโทรศัพท์
+          ไม่ว่าจะเป็นเคสด้านหรือเคสใส, เคส Airpods หรือ Griptok ทุกรูปแบบ</h4>
+      </div>
+      <div class="box-inner">
+        <div class="product-list">
+          <ul class="owl-carousel product-carousel">
+            <li class="item">
+              <div class="card">
+                <div class="card-img-top">
+                  <img src="images/product01.png" class="img-fluid" alt="เคสโทรศัพท์">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">เคสโทรศัพท์</h5>
+                  <a href="#" class="btn">ดูเพิ่มเติม <i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </li>
+            <li class="item">
+              <div class="card">
+                <div class="card-img-top">
+                  <img src="images/product01.png" class="img-fluid" alt="เคสโทรศัพท์">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">เคส Airpods</h5>
+                  <a href="#" class="btn">ดูเพิ่มเติม <i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </li>  
+            <li class="item">
+              <div class="card">
+                <div class="card-img-top">
+                  <img src="images/product01.png" class="img-fluid" alt="เคสโทรศัพท์">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">Griptok</h5>
+                  <a href="#" class="btn">ดูเพิ่มเติม <i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </li>
+            <li class="item">
+              <div class="card">
+                <div class="card-img-top">
+                  <img src="images/product01.png" class="img-fluid" alt="เคสโทรศัพท์">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">เคสโทรศัพท์</h5>
+                  <a href="#" class="btn">ดูเพิ่มเติม <i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </li>    
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end What You Want section  -->
 
+  <!-- What You Shirt section  -->
+  <section class="feature-section type01">
+    <div class="container">
+      <div class="box-intro">
+        <h2>What Your Shirt</h2>
+        <h4>สกรีนสวยไม่จำกัดสี เนื้อผ้าเราเลือกใช้ cotton 100% เพื่อสัมผัสนุ่ม ใส่สบาย
+          กระเป๋าผ้าสกรีนราคาย่อมเยา มีให้เลือกหลายขนาด</h4>
+      </div>
+      <div class="box-inner">
+        <div class="product-list">
+          <ul class="owl-carousel product-carousel">
+            <li class="item">
+              <div class="card">
+                <div class="card-img-top">
+                  <img src="images/product01.png" class="img-fluid" alt="เคสโทรศัพท์">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">เคสโทรศัพท์</h5>
+                  <a href="#" class="btn">ดูเพิ่มเติม <i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </li>
+            <li class="item">
+              <div class="card">
+                <div class="card-img-top">
+                  <img src="images/product01.png" class="img-fluid" alt="เคสโทรศัพท์">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">เคสโทรศัพท์</h5>
+                  <a href="#" class="btn">ดูเพิ่มเติม <i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </li>  
+            <li class="item">
+              <div class="card">
+                <div class="card-img-top">
+                  <img src="images/product01.png" class="img-fluid" alt="เคสโทรศัพท์">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">เคสโทรศัพท์</h5>
+                  <a href="#" class="btn">ดูเพิ่มเติม <i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </li>
+            <li class="item">
+              <div class="card">
+                <div class="card-img-top">
+                  <img src="images/product01.png" class="img-fluid" alt="เคสโทรศัพท์">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">เคสโทรศัพท์</h5>
+                  <a href="#" class="btn">ดูเพิ่มเติม <i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </li>    
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end What You Shirt section  -->
 
-
+  <!-- Banner section  -->
+  <section class="banner-section">
+    <div class="container">
+      <div class="owl-carousel banner-carousel owl-theme">
+        <div class="item"><img src="images/banner.jpg" class="img-fluid" alt="" ></div>
+        <div class="item"><img src="images/banner.jpg" class="img-fluid" alt="" ></div>
+        <div class="item"><img src="images/banner.jpg" class="img-fluid" alt="" ></div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner section  -->
 
 
 
 
   <!-- footer section -->
-  <section class="footer_section">
+  <section class="footer-section">
     <div class="container ">
       <div class="row">
         <div class="col-md-6">
-          <div class="footer_social">
+          <div class="footer-social">
             <h4>what you want Shop</h4>
             <ul>
               <li><a href="#"> <i class="fab fa-line"></i></a></li>
@@ -218,7 +353,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="footer_social">
+          <div class="footer-social">
             <h4>what you SHIRT</h4>
             <ul>
               <li><a href="#"> <i class="fab fa-line"></i></a></li>
@@ -231,7 +366,7 @@
         </div>
       </div>
 
-      <div class="row footer_link">
+      <div class="row footer-link">
         <div class="col-12 col-sm-3 text-center  d-none d-sm-block">
           <img src="images/logo.png" alt="" class="img-fluid">
         </div>
@@ -273,7 +408,9 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
   <script src="https://kit.fontawesome.com/92b1f2faff.js" crossorigin="anonymous"></script>
+
   <script type="text/javascript">
     $("[data-trigger]").on("click", function(){
         var trigger_id =  $(this).attr('data-trigger');
@@ -286,6 +423,46 @@
         $(".navbar-collapse").removeClass("show");
         $("body").removeClass("offcanvas-active");
     }); 
+  </script>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.owl-carousel.product-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        animateOut: 'fadeOut',
+        nav:true,
+        navText: ["<i class='fas fa-angle-left'></i>","<i class='fas fa-angle-right'></i>"],
+        responsive:{
+            0:{
+                items:2
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+      });
+      $('.owl-carousel.banner-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav: true,
+        dots: true,
+        responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:1
+          },
+          1000:{
+              items:1
+          }
+        }
+      });
+    });
   </script>
 </body>
 
