@@ -1232,3 +1232,143 @@ nav.navbar.navbar-expand-lg {
 .custom-form .form-control::placeholder {
   color: #B1B1B1;
 }
+
+/**Payment */
+#payment-page {
+  padding: 40px 0 60px;
+}
+
+.box-payment .first {
+  background: #FF9400;
+  padding: 30px 50px 30px 30px;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
+}
+
+.box-payment .last {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.16);
+  margin-left: -10px;
+}
+
+.box-payment .title-total {
+  overflow: hidden;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+.box-payment .title-total h3 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.box-payment .total-detail {
+  margin-bottom: 20px;
+}
+
+.box-payment .total-detail .product-img {
+  width: 116px;
+  height: 116px;
+  background: #ffffff;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.box-payment .total-detail .product-img img {
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.box-payment .total-detail .info h4,
+.box-payment .total-detail .info .price {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.box-payment .total-detail .info .qty {
+  color: #ffffffb7;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.box-payment .address {
+  margin-top: 40%;
+}
+
+.box-payment .address p {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+
+.box-pay .nav-tabs {
+  width: 100%;
+  border: 1px solid #ff7328;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.box-pay .nav-tabs li {
+  width: 50%;
+}
+
+.box-pay .nav-tabs li a {
+  display: block;
+  padding: 10px;
+  color: #ff7328;
+  text-align: center;
+}
+
+.box-pay .nav-tabs li.active a,
+.box-pay .nav-tabs li a:hover {
+  background: #ff7328;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.bank-info {
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.bank-info .logo {
+  float: left;
+  width: 12%;
+}
+
+.bank-info .detail {
+  float: right;
+  width: 88%;
+}
+
+.bank-info .detail p {
+  margin-bottom: 5px;
+}
+
+.attach-file button {
+  background: #f2f2f2;
+  padding: 10px 28px;
+}
+
+.attach-file button:hover {
+  opacity: 0.7;
+}
+
+.attach-file h3 {
+  font-size: 18px;
+  color: #ff7328;
+}

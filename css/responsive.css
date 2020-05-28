@@ -258,6 +258,10 @@
     padding: 20px;
   }
 
+  .box-payment .address {
+    margin-top: 20px;
+  }
+
 }
 
 @media (max-width: 820px) {
@@ -710,6 +714,42 @@
     font-size: 16px;
     font-weight: 600;
     padding: 8px 20px;
+  }
+
+  .box-payment {
+    padding: 15px;
+  }
+
+  .box-payment .first {
+    padding: 15px;
+    border-radius: 10px 10px 0 0px;
+  }
+
+  .box-payment .last {
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 0;
+  }
+
+  .box-payment .info {
+    padding-left: 20px;
+  }
+
+  .box-payment .total-detail .info h4,
+  .box-payment .total-detail .info .price {
+    font-size: 18px;
+  }
+
+  .bank-info .logo {
+    width: 20%;
+  }
+
+  .bank-info .detail {
+    width: 80%;
+  }
+
+  .attach-file button {
+    padding: 10px;
   }
 }
 
