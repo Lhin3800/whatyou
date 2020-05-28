@@ -260,6 +260,11 @@ nav.navbar.navbar-expand-lg {
   width: 290px;
   height: auto;
 }
+.categories-section .card-img-top img {
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
 
 .categories-section .card-body {
   padding: 10px 0 0;
@@ -445,8 +450,8 @@ nav.navbar.navbar-expand-lg {
 }
 
 .product-list .card .card-img-top {
-  width: 232px;
-  height: 232px;
+  width: 210px;
+  height: 210px;
   margin: 0 auto;
 }
 
@@ -556,6 +561,7 @@ nav.navbar.navbar-expand-lg {
   height: 48px;
   position: absolute;
   top: 36%;
+  left: -30px;
   margin-left: 0px;
   display: block !important;
 }
@@ -565,7 +571,7 @@ nav.navbar.navbar-expand-lg {
   height: 48px;
   position: absolute;
   top: 36%;
-  right: 0px;
+  right: -30px;
   display: block !important;
 }
 
@@ -718,7 +724,7 @@ nav.navbar.navbar-expand-lg {
   padding-top: 25%;
 }
 .categories-section .product-intro .card-img-top {
-  margin-top: -140px;
+  margin-top: -125px;
   margin-left: 0;
   width: 100%;
   height: auto;
@@ -726,8 +732,18 @@ nav.navbar.navbar-expand-lg {
 .categories-section .product-intro .card {
   padding: 0 0 30px;
 }
+
 #product-page .new-section {
   padding: 30px 0;
+}
+.banner-categorires {
+  padding: 30px 0 60px;
+}
+.box-banner .img-banner {
+  border: 1px solid #ff7328;
+  border-radius: 20px;
+  padding-top: 28px;
+  overflow: hidden;
 }
 
 /* Product Detail Page*/
@@ -932,7 +948,7 @@ nav.navbar.navbar-expand-lg {
 }
 
 .relate-product {
-  padding-top: 30px;
+  padding: 30px 0;
 }
 
 .relate-product .box-product {
