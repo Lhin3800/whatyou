@@ -568,6 +568,28 @@
   .box-product .card .card-title a {
     font-size: 14px;
   }
+  #category-page .box-inner .product-list {
+    width: 100%;
+  }
+  #category-page .feature-section .box-inner {
+    margin-left: 0;
+    padding: 20px;
+  }
+  #category-page .owl-prev {
+    left: -10px;
+  }
+  #category-page .owl-next {
+    right: -10px;
+  }
+  #category-page .product-list .list-box li {
+    width: 48%;
+  }
+  #category-page .product-list .list-box li:nth-child(2n + 0) {
+    margin: 0;
+  }
+  .load-more {
+    padding: 0 0 10px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -581,7 +603,7 @@
 
 @media (min-width: 1400px) {
   body {
-    background-position: center -285px;
+    background-position: center -270px;
   }
   .toggle-icon i {
     display: none;
