@@ -5,6 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <title>What You Want</title>
@@ -532,7 +533,7 @@
             margin: 10
           },
           600: {
-            items: 2,
+            items: 3,
             margin: 10
           },
           1000: {
@@ -545,9 +546,11 @@
         margin: 10,
         nav: false,
         dots: true,
+        responsiveClass: true,
         responsive: {
           0: {
-            items: 1
+            items: 1,
+            margin: 10
           },
           600: {
             items: 1
@@ -562,19 +565,24 @@
         margin: 40,
         nav: true,
         navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
+        responsiveClass: true,
         responsive: {
           0: {
-            items: 2
+            items: 4,
+            margin: 20,
+            slideBy: 2;
           },
           600: {
-            items: 2
+            items: 4
           },
           1000: {
             items: 4
           }
         }
       });
+      
     });
+    
   </script>
 </body>
 
