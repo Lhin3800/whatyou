@@ -130,17 +130,6 @@ nav.navbar.navbar-expand-lg {
   margin-right: 7px;
 }
 
-.custom-nav-container .nav-search-btn {
-  background-image: url(../images/search-icon-mobile.png);
-  background-size: 22px;
-  background-repeat: no-repeat;
-  background-position-y: 7px;
-  width: 35px;
-  height: 35px;
-  padding: 0;
-  border: none;
-}
-
 .custom-nav-container {
   z-index: 99999;
   padding: 15px 0;
@@ -354,7 +343,7 @@ nav.navbar.navbar-expand-lg {
   position: absolute;
   top: -12%;
   left: 0;
-  background: url(/images/wyw-bg.png) right top no-repeat;
+  background: url(../images/wyw-bg.png) right top no-repeat;
   background-size: cover;
   width: 510px;
   height: 890px;
@@ -374,7 +363,7 @@ nav.navbar.navbar-expand-lg {
   position: absolute;
   top: -5%;
   right: 0;
-  background: url(/images/wys-bg.png) left top no-repeat;
+  background: url(../images/wys-bg.png) left top no-repeat;
   background-size: cover;
   width: 500px;
   height: 750px;
@@ -430,7 +419,7 @@ nav.navbar.navbar-expand-lg {
   position: absolute;
   top: 50px;
   left: -250px;
-  background: url(/images/wyw-logo.png) left top no-repeat;
+  background: url(../images/wyw-logo.png) left top no-repeat;
   background-size: contain;
   width: 193px;
   height: 285px;
@@ -442,7 +431,7 @@ nav.navbar.navbar-expand-lg {
   position: absolute;
   top: 120px;
   right: -250px;
-  background: url(/images/wys-logo.png) left top no-repeat;
+  background: url(../images/wys-logo.png) left top no-repeat;
   background-size: contain;
   width: 193px;
   height: 285px;
